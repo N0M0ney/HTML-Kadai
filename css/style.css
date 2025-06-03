@@ -7,18 +7,32 @@ body {
 /** ヘッダー */
 
 .header__container {
+  background-color: #020c16;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__nav {img
-  width: 400px;
+.header__nav {
+  width: 200px;
+  display:flex ;  
+ align-items: flex-end;
+ justify-content: space-around;
 }
 
 .nav-item {
+
 }
+a{
+  text-decoration: none;
+  color: chartreuse;
+}
+h1{color:chartreuse}
+p{color:white}
 
 /* メンバー */
 .member-section .members {
 }
+h2{color:white}
 
 .member {
 }
@@ -28,6 +42,7 @@ body {
 
 .member__name {
 }
+h3{color:pink}
 
 /* ゲーム */
 
