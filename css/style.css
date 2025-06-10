@@ -14,35 +14,60 @@ body {
 
 .header__nav {
   width: 200px;
-  display:flex ;  
- align-items: flex-end;
- justify-content: space-around;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .nav-item {
-
 }
-a{
+a {
   text-decoration: none;
   color: chartreuse;
 }
-h1{color:chartreuse}
-p{color:white}
+h1 {
+  color: chartreuse;
+}
+p {
+  color: white;
+}
 
 /* メンバー */
-.member-section .members {
+.member-section {
+  background-color: white;
 }
-h2{color:white}
+.member-section .members {
+  background-color: white;
+}
+
+h2 {
+  margin: 20px;
+  color: aquamarine;
+}
+.members {
+  padding-bottom: 10px;
+  display: flex;
+}
 
 .member {
+  background-color: #020c16;
+  padding: 20px;
+  width: 10.3%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .member__image img {
+  width: 200px;
 }
 
 .member__name {
+  color: white;
 }
-h3{color:pink}
+h3 {
+  color: aquamarine;
+}
 
 /* ゲーム */
 
