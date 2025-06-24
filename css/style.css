@@ -4,6 +4,10 @@ body {
   background-color: #020c16;
 }
 
+h3 h2 {
+  margin: 0;
+}
+
 /** ヘッダー */
 
 .header__container {
@@ -41,7 +45,6 @@ p {
 }
 
 h2 {
-  margin: 20px;
   color: aquamarine;
   font-size: 200%;
 }
@@ -56,7 +59,7 @@ h2 {
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
   width: 13.3%;
   margin: 37px;
   display: flex;
@@ -69,9 +72,9 @@ h2 {
 
 .member__name {
   color: white;
-  margin-left: 15%;
+  margin-left: 22%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 170%;
 }
 
@@ -96,7 +99,7 @@ h3 {
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
   width: 13.3%;
   margin-left: 130px;
   margin-bottom: 50px;
@@ -105,7 +108,7 @@ h3 {
 }
 .game__name {
   color: black;
-  margin-left: 28%;
+  margin-left: 33%;
   display: flex;
   justify-content: space-around;
   font-size: 170%;
@@ -114,4 +117,12 @@ h3 {
 /* お問い合わせ */
 .contact-section {
   background-color: pink;
+  padding-left: 80px;
+}
+
+.section-title {
+  margin: 0;
+}
+@media screen and (min-width: 480px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
 }
